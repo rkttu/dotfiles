@@ -42,6 +42,7 @@ choco install maven -y
 choco install gradle -y
 choco install golang -y
 choco install dotnetcore-sdk -y
+choco install llvm -y
 
 REM Install Windows-flavored packages
 choco install sysinternals -y
