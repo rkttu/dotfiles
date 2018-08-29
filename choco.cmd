@@ -69,6 +69,7 @@ choco install kubernetes-cli -y
 choco install mysql.utilities -y
 choco install docker -y
 choco install svn -y
+choco install slack -y
 
 REM Cloud provider related
 choco install awscli -y
