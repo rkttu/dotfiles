@@ -97,6 +97,8 @@ REM Windows SDK
 choco install windows-sdk-10.1 -y
 choco install windows-sdk-8.1 -y
 choco install vcbuildtools -y
+choco install dependencywalker -y
+choco install ilspy -y
 
 REM Misc
 choco install ffmpeg -y
