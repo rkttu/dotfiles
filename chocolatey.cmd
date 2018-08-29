@@ -86,6 +86,7 @@ choco install mysql.utilities -y
 choco install docker -y
 choco install svn -y
 choco install webpicmd -y
+choco install aria2 -y
 
 REM Cloud provider related
 choco install awscli -y
