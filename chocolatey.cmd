@@ -35,6 +35,8 @@ choco install nodejs.install -y
 choco install maven -y
 choco install gradle -y
 choco install jq -y
+choco install sqlite -y
+choco install phantomjs -y
 
 REM Install Windows-flavored packages
 choco install sysinternals -y
@@ -62,6 +64,9 @@ choco install googlechrome -y
 choco install lastpass -y
 choco install lastpass-for-applications -y
 choco install openvpn -y
+choco install sqlitebrowser -y
+choco install flashplayerplugin -y
+choco install adobeair -y
 
 REM Font
 choco install firacode -y
