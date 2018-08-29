@@ -36,7 +36,7 @@ choco install maven -y
 choco install gradle -y
 choco install jq -y
 choco install sqlite -y
-choco install phantomjs -y
+choco install itunes -y
 
 REM Install Windows-flavored packages
 choco install sysinternals -y
@@ -96,3 +96,4 @@ choco install ffmpeg -y
 choco install ghostscript.app -y
 choco install nssm -y
 choco install ripgrep -y
+choco install phantomjs -y
