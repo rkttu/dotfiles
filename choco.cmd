@@ -57,6 +57,11 @@ choco install baretail -y
 choco install winmerge -y
 choco install crystaldiskmark -y
 choco install rufus -y
+choco install firefox -y
+choco install googlechrome -y
+choco install lastpass -y
+choco install lastpass-for-applications -y
+choco install openvpn -y
 
 REM Font
 choco install firacode -y
