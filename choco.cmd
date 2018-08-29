@@ -30,6 +30,10 @@ choco install git.install -y
 choco install ruby -y
 choco install python3 -y
 choco install graphviz -y
+choco install jdk8 -y
+choco install nodejs.install -y
+choco install maven -y
+choco install gradle -y
 choco install jq -y
 
 REM Install Windows-flavored packages
@@ -41,11 +45,16 @@ choco install fiddler -y
 choco install reshack -y
 choco install heidisql -y
 choco install rdcman -y
+choco install filezilla -y
 choco install tightvnc -y
 choco install winscp -y
 choco install hwinfo.install -y
-choco install d2codingfont -y
 choco install dotnetcore-sdk -y
+choco install sourcetree -y
+
+REM Font
+choco install firacode -y
+choco install d2codingfont -y
 
 REM Company related
 choco install terraform -y
@@ -67,3 +76,5 @@ choco install ffmpeg -y
 choco install ghostscript.app -y
 choco install queueexplorer-standard -y
 choco install nssm -y
+choco install ripgrep -y
+choco install baretail -y
