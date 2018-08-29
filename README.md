@@ -1,2 +1,3 @@
-# dotfile
-rkttu's configuration files
+# rkttu dotfiles
+
+Inspired by https://github.com/serialx/dotfiles
