@@ -67,6 +67,7 @@ choco install openvpn -y
 choco install sqlitebrowser -y
 choco install flashplayerplugin -y
 choco install adobeair -y
+choco install gom-player -y
 
 REM Font
 choco install firacode -y
