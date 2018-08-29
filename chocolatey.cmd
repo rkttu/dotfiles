@@ -20,6 +20,7 @@ choco install wget -y
 
 REM Install macOS/Linux default packages
 choco install vim -y
+choco install nano -y
 choco install grepwin -y
 choco install openssh -y
 
@@ -30,13 +31,17 @@ choco install git.install -y
 choco install ruby -y
 choco install python3 -y
 choco install graphviz -y
-choco install jdk8 -y
-choco install nodejs.install -y
-choco install maven -y
-choco install gradle -y
 choco install jq -y
 choco install sqlite -y
 choco install itunes -y
+
+REM Install Programming Languages
+choco install nodejs.install -y
+choco install jdk8 -y
+choco install maven -y
+choco install gradle -y
+choco install golang -y
+choco install dotnetcore-sdk -y
 
 REM Install Windows-flavored packages
 choco install sysinternals -y
@@ -51,7 +56,6 @@ choco install filezilla -y
 choco install tightvnc -y
 choco install winscp -y
 choco install hwinfo.install -y
-choco install dotnetcore-sdk -y
 choco install sourcetree -y
 choco install windirstat -y
 choco install queueexplorer-standard -y
@@ -68,6 +72,7 @@ choco install sqlitebrowser -y
 choco install flashplayerplugin -y
 choco install adobeair -y
 choco install gom-player -y
+choco install slack -y
 
 REM Font
 choco install firacode -y
@@ -80,16 +85,17 @@ choco install kubernetes-cli -y
 choco install mysql.utilities -y
 choco install docker -y
 choco install svn -y
-choco install slack -y
+choco install webpicmd -y
 
 REM Cloud provider related
 choco install awscli -y
 choco install azure-cli -y
-choco install vcbuildtools -y
+choco install gcloudsdk -y
 
 REM Windows SDK
 choco install windows-sdk-10.1 -y
 choco install windows-sdk-8.1 -y
+choco install vcbuildtools -y
 
 REM Misc
 choco install ffmpeg -y
