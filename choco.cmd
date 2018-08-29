@@ -1,13 +1,3 @@
-@echo off
-pushd "%~dp0"
-
-net session >nul 2>&1
-if not %errorLevel% == 0 (
-  echo Failure: Current permissions inadequate.
-  pause >nul
-  goto exit
-)
-
 REM Install command-line tools using Chocolatey.
 
 REM Make sure we're using the latest Chocolatey.
@@ -77,7 +67,3 @@ choco install ffmpeg -y
 choco install ghostscript.app -y
 choco install queueexplorer-standard -y
 choco install nssm -y
-
-:exit
-popd
-@echo on
